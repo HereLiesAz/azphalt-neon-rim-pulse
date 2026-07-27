@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.neon-rim-pulse",
+  "name": "Neon Rim Pulse",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A pulsing neon glow that traces the frame's own edges — a cyberpunk outline effect driven entirely by the footage itself.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/neon-rim-pulse.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "stylize", "neon", "cyberpunk", "edge-glow", "one-click"]
+    }
+  ]
+}
